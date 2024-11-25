@@ -1,0 +1,9 @@
+String geld = 0;
+Mitarbeiter ira = new Mitarbeiter();
+geld = ira.arbeiten();
+if(geld == 0){
+	ira.goHome();
+}
+else {
+ 	ira.feiern();
+}
